@@ -102,6 +102,10 @@ tr {
   border-top: 0;
 }
 
+#real-estate-project {
+  border-bottom: 1px solid var(--gray-color);
+}
+
 /* Footer */
 .page-footer {
   background: var(--teal-color);
