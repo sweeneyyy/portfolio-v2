@@ -3,12 +3,34 @@
   --font-color: #4B5362;
   --gray-color: #EDEDEF;
   --logo-font: 'Bad Script', cursive;
-  --logo-color: #307473;
+  --teal-color: #307473;
   --header-font: 'Lato', sans-serif;
 }
 
 body {
   color: var(--font-color);
+  /* background: var(--gray-color); */
+}
+
+section {
+  min-height: 80vh;
+  margin: 30px 0;
+}
+
+section h4 {
+  text-align: center;
+  font-family: var(--header-font);
+  color: var(--teal-color);
+  margin-bottom: 20px;
+  /* border-bottom: 1px solid var(--teal-color); */
+}
+
+hr {
+  width: 100px;
+  height: 3px;
+  background: var(--teal-color);
+  border: 0;
+  margin-bottom: 30px;
 }
 
 a {
@@ -18,25 +40,25 @@ a {
 
 /* Nav */
 .nav-wrapper {
-  background-color: var(--gray-color);
+  background-color: var(--teal-color);
 }
 
 .nav-wrapper a {
-  color: var(--font-color);
+  color: #FFF;
 }
 
 #brand {
   font-family: var(--logo-font);
   font-size: 2.7em;
   font-weight: 600;
-  color: var(--logo-color);
-  margin-left: 30px;
+  color: #FFF;
+  margin-left: 40px;
 }
 
 /* Home */
 header.home {
   font-family: var(--header-font);
-  color: var(--logo-color);
+  color: var(--teal-color);
   min-height: 80vh;
   display: flex;
   align-items: center;
@@ -56,22 +78,33 @@ header.home {
 #arrow {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 /* Skills */
-section#skills {
-  min-height: 80vh;
-}
+
 
 /* About */
+#headshot {
+  width: 80%;
+  margin-left: 30px;
+}
+
+#about p {
+  line-height: 1.8em;
+}
 
 /* Projects */
-section#projects {
-  margin: 40px 0;
+tr {
+  border: none;
+}
+
+.card .card-action {
+  border-top: 0;
 }
 
 /* Footer */
 .page-footer {
-  background: var(--logo-color);
+  background: var(--teal-color);
   color: #FFF;
   min-height: 40vh;
 }
