@@ -3,11 +3,17 @@
   --font-color: #4B5362;
   --gray-color: #EDEDEF;
   --logo-font: 'Bad Script', cursive;
-  --header-font: 'Raleway', sans-serif;
+  --logo-color: #307473;
+  --header-font: 'Lato', sans-serif;
 }
 
 body {
   color: var(--font-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 /* Nav */
@@ -19,23 +25,27 @@ body {
   color: var(--font-color);
 }
 
-.brand-logo {
+#brand {
   font-family: var(--logo-font);
+  font-size: 2.7em;
+  font-weight: 600;
+  color: var(--logo-color);
+  margin-left: 30px;
 }
 
 /* Home */
 header.home {
   font-family: var(--header-font);
-  font-weight: 700;
-  min-height: 60vh;
+  color: var(--logo-color);
+  min-height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
-.home-contacts {
-  margin-top: 50px;
+.home h4 {
+  margin-bottom: 40px;
 }
 
 .home-contacts i {
@@ -46,4 +56,31 @@ header.home {
 #arrow {
   display: flex;
   justify-content: center;
+}
+
+/* About */
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.page-footer {
+  background: var(--logo-color);
+  color: #FFF;
+  min-height: 40vh;
+}
+
+.page-footer h5 {
+  font-family: var(--header-font);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.footer-contacts a, .footer-contacts i {
+  font-size: 1em;
+  margin: 10px;
 }

@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="icon" type="image/png" href="https://i.imgur.com/Lju7Ju6.png">
   <!-- Import Google Icon Font -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
   <!-- Import materialize css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
   <!-- Import font awesome -->
@@ -16,19 +17,18 @@
   <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 </head>
 <body>
+  <!-- Nav -->
   <nav>
     <div class="nav-wrapper">
-      <div class="container">
-        <a href="#" class="brand-logo">S/A</a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="#">skills</a></li>
-          <li><a href="#">projects</a></li>
-          <li><a href="#">about</a></li>
-          <li><a href="#">contact</a></li>
-          <li><a href="#">resume</a></li>
-        </ul>
-      </div>
+      <a href="#" class="brand-logo" id="brand">sa</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="#">skills</a></li>
+        <li><a href="#">projects</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">contact</a></li>
+        <li><a href="#">resume</a></li>
+      </ul>
     </div>
   </nav>
   <!-- Mobile nav stuff -->
@@ -39,21 +39,38 @@
     <li><a href="#">contact</a></li>
     <li><a href="#">resume</a></li>
   </ul>
-
-  <div class="container">
-    <header class="home">
-      <h1>Hi : ) I'm Sweeney</h1>
-      <h4>Full Stack Web Developer</h4>
-      <span class="home-contacts">
-          <i class="fab fa-github"></i>
-          <i class="fab fa-linkedin-in"></i>
-          <i class="far fa-envelope"></i>
-          <i class="far fa-file-alt"></i>
+  <!-- Portfolio Content -->
+  <main>
+    <div class="container">
+      <header class="home">
+        <h1>Hi, I'm Sweeney : )</h1>
+        <h4>Full Stack Web Developer</h4>
+        <span class="home-contacts">
+          <a href="https://github.com/sweeneyyy"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/sweeneyarnett/"><i class="fab fa-linkedin-in"></i></a>
+          <a href="mailto:sweeneyarnett@gmail.com"><i class="far fa-envelope"></i></a>
+          <a href="#"><i class="far fa-file-alt"></i></a>
+        </span>
+      </header>
+      <i class="small material-icons" id="arrow"><a href="#">keyboard_arrow_down</a></i>
+      <section class="about">
+        <p>about section here</p>
+      </section>
+    </div>
+  </main>
+  <!-- Footer -->
+  <footer class="page-footer">
+    <div class="container">
+      <h5>Contact</h5>
+      <span class="footer-contacts">
+        <a href="https://github.com/sweeneyyy"><i class="fab fa-github"></i>sweeneyyy</a>
+        <a href="https://www.linkedin.com/in/sweeneyarnett/"><i class="fab fa-linkedin-in"></i>sweeneyarnett</a>
+        <a href="mailto:sweeneyarnett@gmail.com"><i class="far fa-envelope"></i>sweeneyarnett@gmail.com</a>
+        <a href="#"><i class="far fa-file-alt"></i>Download Resume</a>
       </span>
-    </header>
-    <i class="small material-icons" id="arrow">keyboard_arrow_down</i>
-  </div>
-  
+    </div>
+  </footer>
+  <!-- Scripts -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
   <script src="script.js"></script>
 </body>
