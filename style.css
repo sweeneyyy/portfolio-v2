@@ -14,6 +14,7 @@ body {
 
 section {
   min-height: 80vh;
+  width: 100%;
   margin: 30px 0;
 }
 
@@ -56,7 +57,13 @@ a {
 }
 
 /* Home */
-header.home {
+#home {
+  background: var(--gray-color);
+  margin-top: 0;
+  padding-bottom: 30px;
+}
+
+header.home-header {
   font-family: var(--header-font);
   color: var(--teal-color);
   min-height: 80vh;
@@ -66,7 +73,7 @@ header.home {
   flex-direction: column;
 }
 
-.home h4 {
+.home-header h4 {
   margin-bottom: 40px;
 }
 
@@ -78,7 +85,7 @@ header.home {
 #arrow {
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 /* Skills */
 
@@ -100,6 +107,14 @@ tr {
 
 .card .card-action {
   border-top: 0;
+}
+
+.card-content h5 {
+  color: var(--teal-color);
+}
+
+.card-content p {
+  line-height: 1.7em;
 }
 
 #real-estate-project {
