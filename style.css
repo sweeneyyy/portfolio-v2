@@ -60,6 +60,11 @@ header.home {
 
 /* About */
 
+/* Projects */
+section.projects {
+  margin: 40px 0;
+}
+
 /* Footer */
 footer {
   display: flex;
