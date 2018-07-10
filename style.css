@@ -57,6 +57,10 @@ header.home {
   display: flex;
   justify-content: center;
 }
+/* Skills */
+section#skills {
+  min-height: 80vh;
+}
 
 /* About */
 
@@ -92,4 +96,10 @@ section#projects {
 .footer-contacts i {
   font-size: 1.4em;
   margin: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+  .page-footer span {
+    flex-direction: column;
+  }
 }
