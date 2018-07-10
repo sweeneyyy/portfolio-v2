@@ -24,9 +24,9 @@
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="#">skills</a></li>
-        <li><a href="#">projects</a></li>
+        <li><a href="#projects">projects</a></li>
         <li><a href="#">about</a></li>
-        <li><a href="#">contact</a></li>
+        <li><a href="#contact">contact</a></li>
         <li><a href="#">resume</a></li>
       </ul>
     </div>
@@ -59,19 +59,24 @@
       </section> -->
       
       <!-- Projects -->
-      <section class="projects">
+      <section id="projects">
         <div class="row">
           <div class="col s12 m6">
             <div class="card">
               <div class="card-image">
                 <img src="https://loremflickr.com/g/320/240/random=1">
-                <span class="card-title">Real Estate App</span>
               </div>
               <div class="card-content">
-                <p>Current work in progress - A user can view featured listings, read reviews and learn about working with the agent's team.</p>
+                <h5>Real Estate App</h5>
+                <p>Current freelance project built with React, Express and Node. Incorporates Spark Platform API for listing data and is deployed with AWS Elastic Beanstalk. A user can view featured listings, read reviews and learn about buying and selling with the agent's team.</p>
               </div>
               <div class="card-action">
-                <a href="#">GitHub</a>
+                <a href="https://github.com/sweeneyyy/real-estate-project" target="_blank">
+                  GitHub
+                </a>
+                <a href="http://realestateapp-env.i4cdtuez9k.us-east-2.elasticbeanstalk.com/" target="_blank">
+                  Live Site
+                </a>
               </div>
             </div>
           </div>
@@ -79,13 +84,18 @@
             <div class="card">
               <div class="card-image">
                 <img src="https://loremflickr.com/g/320/240/random=2">
-                <span class="card-title">whereabouts</span>
               </div>
               <div class="card-content">
-                <p>A vision board app to search and save top images from tumblr to get inspired for your next adventure!</p>
+                <h5>Whereabouts</h5>
+                <p>A vision board app to search and save top images from tumblr to get inspired for your next adventure. Full CRUD functionality using the Express framework for Node and PostgreSQL. Incorporated the tumblr API and the Passport authentication middleware for Node.</p>
               </div>
               <div class="card-action">
-                <a href="#">GitHub</a>
+                <a href="https://github.com/sweeneyyy/whereabouts" target="_blank">
+                  GitHub
+                </a>
+                <a href="https://whereabouts-js.herokuapp.com/" target="_blank">
+                  Live Site
+                </a>
               </div>
             </div>
           </div>
@@ -95,13 +105,18 @@
             <div class="card">
               <div class="card-image">
                 <img src="https://loremflickr.com/g/320/240/random=3">
-                <span class="card-title">Venture</span>
               </div>
               <div class="card-content">
-                <p>A project done in collaboration with Tony Phan and Winston Summers at General Assembly. Explore and save top restaurants at your next travel destination.</p>
+                <h5>Venture</h5>
+                <p>A responsive MERN stack app built in collaboration with two other developers at General Assembly. A user can create an account to search their next travel destination and save popular restaurants via the Yelp API and create a packing list.</p>
               </div>
               <div class="card-action">
-                <a href="#">GitHub</a>
+                <a href="https://github.com/sweeneyyy/mern-project-3" target="_blank">
+                  GitHub
+                </a>
+                <a href="https://venture-js.herokuapp.com/" target="_blank">
+                  Live Site
+                </a>
               </div>
             </div>
           </div>
@@ -109,13 +124,18 @@
             <div class="card">
               <div class="card-image">
                 <img src="https://loremflickr.com/g/320/240/random=4">
-                <span class="card-title">Whack-A-Shark</span>
               </div>
               <div class="card-content">
-                <p>A fun take on the classic whack-a-mole game - with sharks and a paddle! Best played in the browser.</p>
+                <h5>Whack-A-Shark</h5>
+                <p>A fun take on the classic whack-a-mole game - with sharks and a paddle! Best played in the browser and built with vanilla JavaScript, HTML and CSS.</p>
               </div>
               <div class="card-action">
-                <a href="#">GitHub</a>
+                <a href="https://github.com/sweeneyyy/whack-a-shark" target="_blank">
+                  GitHub
+                </a>
+                <a href="https://sweeneyyy.github.io/whack-a-shark/" target="_blank">
+                  Live Site
+                </a>
               </div>
             </div>
           </div>
@@ -124,7 +144,7 @@
     </div>
   </main>
   <!-- Footer -->
-  <footer class="page-footer">
+  <footer class="page-footer" id="contact">
     <div class="container">
       <h5>Contact</h5>
       <span class="footer-contacts">

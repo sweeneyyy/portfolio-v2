@@ -61,7 +61,7 @@ header.home {
 /* About */
 
 /* Projects */
-section.projects {
+section#projects {
   margin: 40px 0;
 }
 
