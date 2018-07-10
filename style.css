@@ -66,26 +66,30 @@ section#projects {
 }
 
 /* Footer */
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
 .page-footer {
   background: var(--logo-color);
   color: #FFF;
   min-height: 40vh;
 }
 
-.page-footer h5 {
+.page-footer span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-footer h4 {
   font-family: var(--header-font);
   text-align: center;
   margin-bottom: 30px;
 }
 
-.footer-contacts a, .footer-contacts i {
-  font-size: 1em;
+.footer-contacts a {
+  font-size: 1.4em;
+  margin: 16px;
+}
+
+.footer-contacts i {
+  font-size: 1.4em;
   margin: 10px;
 }
