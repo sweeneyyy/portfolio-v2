@@ -3,12 +3,10 @@
   --font-color: #4B5362;
   --gray-color: #EDEDEF;
   --logo-font: 'Bad Script', cursive;
-  /* --header-font: 'Raleway', sans-serif; */
-  --body-font: 'Yantramanav', sans-serif;
+  --header-font: 'Raleway', sans-serif;
 }
 
 body {
-  font-family: var(--body-font);
   color: var(--font-color);
 }
 
@@ -23,5 +21,29 @@ body {
 
 .brand-logo {
   font-family: var(--logo-font);
-  /* margin-left: 24px; */
+}
+
+/* Home */
+header.home {
+  font-family: var(--header-font);
+  font-weight: 700;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home-contacts {
+  margin-top: 50px;
+}
+
+.home-contacts i {
+  font-size: 40px;
+  margin: 10px 10px;
+}
+
+#arrow {
+  display: flex;
+  justify-content: center;
 }
