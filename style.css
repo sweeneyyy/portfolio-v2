@@ -81,7 +81,7 @@ header.home-header {
 
 .home-contacts i {
   font-size: 40px;
-  margin: 10px 10px;
+  margin: 10px 20px 10px 0;
 }
 
 #arrow {
@@ -97,32 +97,12 @@ header.home-header {
   color: var(--purple-color);
 }
 
-/* Skills */
-#skills {
-  background: var(--purple-color);
-  /* margin-top: 0; */
-  padding: 30px 0;
-}
-
-#skills .container {
-  background: var(--gray-color);
-  box-shadow: 8px 8px rgba(0,0,0,0.15);
-  padding: 20px;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: space-around; */
-}
-
-#skills td,
-#skills th {
-  padding: 5px;
-}
-
 /* About */
 #headshot {
   width: 80%;
   margin-left: 30px;
 }
+
 #about .container {
   background: var(--gray-color);
   box-shadow: 8px 8px rgba(0,0,0,0.15);
@@ -133,11 +113,24 @@ header.home-header {
   line-height: 1.8em;
 }
 
-/* Projects */
-/* #projects {
-  background-color: #ededef;
-} */
+/* Skills */
+#skills {
+  background: var(--purple-color);
+  padding: 30px 0;
+}
 
+#skills .container {
+  background: var(--gray-color);
+  box-shadow: 8px 8px rgba(0,0,0,0.15);
+  padding: 20px;
+}
+
+#skills td,
+#skills th {
+  padding: 5px;
+}
+
+/* Projects */
 tr {
   border: none;
 }
@@ -148,6 +141,11 @@ tr {
 
 .card .card-action {
   border-top: 0;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating){
+  color: var(--purple-color);
+  text-align: center;
 }
 
 .card-content h5 {
@@ -163,6 +161,10 @@ tr {
 }
 
 /* Footer */
+#contact hr {
+  background: #FFF;
+}
+
 .page-footer {
   background: var(--teal-color);
   color: #FFF;
@@ -178,7 +180,6 @@ tr {
 .page-footer h4 {
   font-family: var(--header-font);
   text-align: center;
-  margin-bottom: 30px;
 }
 
 .footer-contacts a {
@@ -194,5 +195,11 @@ tr {
 @media only screen and (max-width: 800px) {
   .page-footer span {
     flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #headshot {
+    display: none;
   }
 }
