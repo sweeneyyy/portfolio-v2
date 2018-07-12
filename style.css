@@ -2,8 +2,10 @@
 :root {
   --font-color: #4B5362;
   --gray-color: #EDEDEF;
-  --logo-font: 'Bad Script', cursive;
   --teal-color: #307473;
+  --purple-color: #7A82AB;
+  --logo-font: 'Bad Script', cursive;
+
   --header-font: 'Lato', sans-serif;
 }
 
@@ -57,7 +59,7 @@ a {
 
 /* Home */
 #home {
-  background: url(./img/code.jpg);
+  background: url(./img/deceptionpass.jpg);
   background-size: cover;
   background-position-y: 50%;
   background-repeat: no-repeat;
@@ -90,8 +92,16 @@ header.home-header {
 #arrow {
   display: flex;
   justify-content: center;
+  color: #FFF;
+  font-size: 3em;
   margin-bottom: 70px;
 }
+
+#arrow:hover, 
+.home-contacts i:hover {
+  color: var(--purple-color);
+}
+
 /* Skills */
 #skills {
   background: var(--gray-color);
